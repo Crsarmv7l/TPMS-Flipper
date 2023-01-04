@@ -21,7 +21,7 @@ You must be using Ubuntu (Debian had some weird package issues for me). Download
 Like most projects, I built on and utilized the work of others:
 
 - Helper Script, Schrader SMD3MA4 encoding and python modifications by Lord Daikon (me)
-- Massive thanks for help wih signals analysis, python fixes, and overall wisdom from @Jimilinux
+- Massive thanks for help wih signals analysis, python fixes, and overall wisdom from Jimilinux https://github.com/jimilinuxguy
 - The excellent work of rtl_433 reversing signals was a heavily utilized resource
 - PMV-107J and very useful encoding tools that are the backbone of this project from https://github.com/triq-org/tx_tools
 - Citroen, and Ford from https://github.com/cdeletre/txtpms/

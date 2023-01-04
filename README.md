@@ -12,7 +12,7 @@ The files in this repo generate valid Flipper Zero TPMS "Low Pressure" sub files
 https://user-images.githubusercontent.com/85343771/210616359-4581ef6e-6c41-4738-b60f-186451180579.mp4
 
 **Usage:**
-You must be using Ubuntu (Debian had some weird package issues for me). Download the entire repo. Extract the TPMS folder in you home dir. Chmod +x the TPMS-helper.sh. Run it. It *should* install all needed tools and set correct permissions for Code_gen in the Resources folder. This will only happen once. Choose the TPMS type, enter the hex ID, and a Flipper sub file will be output to the Output folder.
+You must be using Ubuntu (Debian had some weird package issues for me). Download the entire repo. Extract the TPMS folder in you home dir. Chmod +x the TPMS-helper.sh. Run it. It *should* install all needed tools and set correct permissions for Code_gen in the Resources folder. This will only happen once. Choose the TPMS type, enter the hex ID, and a Flipper sub file will be output to the Output folder. You can test it against rtl_433.
 
 **Before the Flipper tiktokers ask, you need to generate a SPECIFIC file with the correct ID for each car or it will not work. The SUB for your car will have a different ID than every other car**
 

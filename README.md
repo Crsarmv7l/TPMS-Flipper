@@ -5,7 +5,7 @@ Generate TPMS sub files for the Flipper Zero
 Since approx 2009 all vehicles in the United States are required to have a method of measuring tire pressure. These sensors are called Tire Pressure Monitoring Systems (TPMS). There are two main types of TPMS, Direct and Indirect, direct sensors are mounted in the wheel and usually transmit information to the car ECU via radio frequency signals. RF TPMS transmissions are the subject of this repository. In order to prevent your vehicle's TPMS system from effecting other cars, TPMS makers rely on different encoding modulations, formats, Preambles and the TPMS sensor IDs that are set in the car's ECU.
 
 **TPMS-Helper**
-The files in this repo generate valid Flipper Zero sub files in the correct format and modulations with a user specified TPMS ID for a few TPMS types.
+The files in this repo generate valid Flipper Zero TPMS "Low Pressure" sub files in the correct format and modulations with a user specified TPMS ID for a few TPMS types.
 
 **Demonstration**
 

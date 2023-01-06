@@ -30,4 +30,4 @@ Like most projects, I built on and utilized the work of others:
 - Also utilizes GNUradio, rtl_433, sox and python 3.10
 
 **Contributions of protocols are welcome**
-- My work on toyota is also included, the bitstream is perfect but I couldn't get the crc8 to match the crc8 of the test file I was building against. So I didn't get to building the DMC encoding for it.
+- My work on the older toyota (PMV-c210) is also included, the bitstream is perfect but I couldn't get the crc8 to match the crc8 of the test file I was building against. So I didn't get to building the DMC encoding for it. Any python wizards that want to tackle that?

@@ -1,3 +1,7 @@
+# ARCHIVING
+It appears some of these are now broken, but I don't intend on working on these anymore
+
+
 # TPMS-Flipper
 Generate TPMS sub files for the Flipper Zero
 

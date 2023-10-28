@@ -1,4 +1,18 @@
 # ARCHIVING
+Got CRC for the regular toyota working PMV-c210 iirc. This is what you need:
+
+
+    crc8 = crcmod.mkCrcFun(0x107, rev=False, initCrc=0x80, xorOut=0)
+    crc_bytes = int(payload, 2).to_bytes(len(payload) // 8, byteorder='big')
+    calculated_crc = crc8(crc_bytes[0:8])
+    crc_bits = str(bin(calculated_crc)[2:])
+   
+    crc_bits= crc_bits.zfill(8)
+    
+    fin = "010101010011110" + differential_manchester_encode(payload + crc_bits)  + "11"
+
+I am not putting it in, but this combined with everything in my encluded work shoud be enough for you to do it yourself
+
 It appears some of these are now broken, but I don't intend on working on these anymore
 
 
@@ -34,4 +48,4 @@ Like most projects, I built on and utilized the work of others:
 - Also utilizes GNUradio, rtl_433, sox and python 3.10
 
 **Contributions of protocols are welcome**
-- My work on the older toyota (PMV-c210) is also included, the bitstream is perfect but I couldn't get the crc8 to match the crc8 of the test file I was building against. So I didn't get to building the DMC encoding for it. Any python wizards that want to tackle that?
+

@@ -11,7 +11,7 @@ Got CRC for the regular toyota working PMV-c210 iirc. This is what you need:
     
     fin = "010101010011110" + differential_manchester_encode(payload + crc_bits)  + "11"
 
-I am not putting it in, but this combined with everything in my encluded work shoud be enough for you to do it yourself
+I am not putting it in, but this combined with everything in my included work shoud be enough for you to do it yourself
 
 It appears some of these are now broken, but I don't intend on working on these anymore
 
